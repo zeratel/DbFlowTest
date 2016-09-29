@@ -28,7 +28,8 @@ public class User extends BaseModel {
     //判断严格
     @PrimaryKey(autoincrement = true)
     private int id;
-    @Column(defaultValue = "55")
+//    (defaultValue = "55")
+    @Column
     private String uid;
     @Column
     private String name;
